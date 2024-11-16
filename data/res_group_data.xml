@@ -1,0 +1,8 @@
+<odoo>
+<!--    User Type Creation-->
+    <record id="sale_admin_groups" model="res.groups">
+       <field name="name">Sale Admin</field>
+       <field name="comment">The user will have access to managing sales.</field>
+       <field name="category_id" ref="base.module_category_hidden"/>
+   </record>
+</odoo>
